@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Landing Page</title>
+
+  <link rel="stylesheet" href="./dist/output.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+   <!-- Font Awesome -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-roboto antialiased bg-black text-white" >
+<!-- Navigation__bar -->
+<nav class="p-4 text-white fixed w-full  bg-gray-100/10 z-10">
+  <!-- flex__container -->
+  <div class="flex items-center justify-between md:w-[60%] mx-auto ">
+    <!-- left__side -->
+    <div>
+        <!-- logo -->
+        <p class="font-bold md:text-xl">GS[ ]</p>
+    </div>
+    <!-- right__side -->
+    <div>
+
+      <div class="hidden md:block">
+        <ul class="flex items-center space-x-4">
+          <li>
+            <a href="#" class="text-orange-600 font-bold">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-white font-bold">About</a>
+          </li>
+          <li>
+            <a href="#" class="text-white font-bold">Movies</a>
+          </li>
+          <li>
+            <a href="#" class="text-white font-bold">Contact Us</a>
+          </li>
+        </ul>
+  
+      </div>
+      <!-- humberg__menu -->
+      <div class="font-bold md:hidden">
+        <a href="#"> |||</a>
+      </div>
+    </div>
+  </div>
+
+</nav>
+<!-- Navigation__bar -->
+
+
+
+<!-- her0__section -->
+<div class="w-full h-[80vh] overflow-hidden  bg-cover  bg-no-repeat" style=" background-image:
+linear-gradient(to right,black, rgba(0, 0, 0, 0.178)), url('https://images.unsplash.com/photo-1657276055907-1ebd236c9850?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');">
+  <!-- overlay -->
+
+  <!-- content -->
+  <div class="absolute top-[20%] md:top-[20%] left-[10%] text-white  border-l-2">
+    <div class="ml-2 space-y-5  overflow-hidden">
+      
+      <p>Out Now</p>
+      <h1 class="font-bold text-xl md:text-4xl  text-orange-600">Transformers  Rise of Beasts</h1>
+      <p class="text-sm w-[70%] md:w-[50%]  md:text-[15px]">Returning to the action and spectacle that have captured moviegoers around the world, Transformers: Rise of the Beasts will take audiences on a ‘90s globetrotting adventure with the Autobots and introduce a whole new faction of Transformers – the Maximals – to join them as allies in the existing battle for earth. Directed by Steven Caple Jr. and starring Anthony Ramos and Dominique Fishback, the film arrives in theatres June 9, 2023.</p>
+      <button class="px-3 py-1 bg-orange-600  text-white">
+        <a href="https://www.youtube.com/watch?v=WWWDskI46Js&pp=ygUfdHJhbnNmb3JtZXJzIHJpc2Ugb2YgdGhlIGJlYXN0cw%3D%3D">Stream/Play</a>
+      </button>
+    </div>
+  </div>
+</div>
+<!-- her0__section -->
+
+<!-- movie__section -->
+<div class="p-4">
+  <p class="text-center md:text-xl">Our latest releases | <span class="text-orange-500">Watch all</span></p>
+
+  <!-- movie__container -->
+  <div  class="grid grid-cols-2 gap-4 my-4 md:grid-cols-3 md:w-[60%] md:mx-auto ">
+
+    <!-- card__Container -->
+    <div class="relative rounded overflow-hidden h-[25rem] w-full bg-contain group  mb-4 " style="background:url('https://images.unsplash.com/photo-1658233427331-088df3be7ad5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRyYW5zZm9ybWVyc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60')">
+        
+        <!-- content -->
+        <div class="absolute  w-full h-full bg-black/70 hidden group-hover:block transition-all duration-500"> 
+          <div class="absolute top-[10%] w-[60%] left-2 ">
+            <h1>30 yard</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est aspernatur sapiente.</p>
+          </div>
+        </div>
+    </div>
+
+    <!-- card__Container -->
+    <div class="relative rounded overflow-hidden h-[25rem] w-full bg-contain group  mb-4 " style="background:url('https://dx35vtwkllhj9.cloudfront.net/paramountpictures/transformers-rise-of-the-beasts/images/gallery/image2.jpg')">
+        
+        <!-- content -->
+        <div class="absolute  w-full h-full bg-black/70 hidden group-hover:block transition-all duration-500"> 
+          <div class="absolute top-[10%] w-[60%] left-2 ">
+            <h1>30 yard</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est aspernatur sapiente.</p>
+          </div>
+        </div>
+    </div>
+
+    <!-- card__Container -->
+    <div class="relative rounded overflow-hidden h-[25rem] w-full bg-cover group  mb-4 " style="background:url('https://images.unsplash.com/photo-1543914004-01dfd361dc2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60')">
+        
+        <!-- content -->
+        <div class="absolute  w-full h-full bg-black/70 hidden group-hover:block transition-all duration-500"> 
+          <div class="absolute top-[10%] w-[60%] left-2 ">
+            <h1>30 yard</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est aspernatur sapiente.</p>
+          </div>
+        </div>
+    </div>
+
+    <!-- card__Container -->
+    <div class="relative rounded overflow-hidden h-[25rem] w-full bg-cover group  mb-4 " style="background:url('https://images.unsplash.com/photo-1532800181046-044ce9bfd577?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZpbG18ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60')">
+        
+        <!-- content -->
+        <div class="absolute  w-full h-full bg-black/70 hidden group-hover:block transition-all duration-500"> 
+          <div class="absolute top-[10%] w-[60%] left-2 ">
+            <h1>30 yard</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est aspernatur sapiente.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</div>
+<!-- movie__section -->
+</body>
+
+</html>
